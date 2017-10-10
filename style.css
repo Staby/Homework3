@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	list-style-type: none;
+}
+body { 
+	margin: 0px;
+}
+.koza {
+	padding: 10px;
+    min-height: 46px;
+}
+
+.cube1 {
+	width: 45%;
+	float: left;
+	background-color: #1b2e35;
+}
+.cube2 {
+	width: 55%;
+	float: left;
+	background-color: #1b2e35;
+	max-height: 50px;
+}
+
+.ul {
+	float: right;
+	padding-right: 42px;
+}
+
+.cube2 .li {
+	display: inline-block;
+	margin-left: 25px;
+	color: white;
+
+}
+.li:hover {
+	border: inherit;
+	border-bottom: 2px solid aqua;
+	padding-bottom: 14px;
+
+
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	margin: 0% 18%;
+	min-height: 500px;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 40px;
+}
+h2 {
+	font-size: 40px;
+
+}
+.linia {
+	width: 20%;
+    float: left;
+}
+.linia2 {
+	width: 55%;
+	float: left;
+}
+.ul1 {
+	padding-left: 0px;
+}
+.li1 {
+	padding-bottom: 4px;
+}
+.li2 {
+	padding-bottom: 4px;
+	font-size: 20px;
+	font-weight: bold;
+	border: inherit;
+	border-top: 1px solid #d8d8d8;
+	border-width: 2px;
+    width: 40px;
+    padding-top: 20px;
+
+
+}
+strong {
+	border: inherit;
+	border-bottom: 2px solid #5896cc;
+}
+
+.go1 .go2 {
+	padding: 5px 8px;
+}
+.go1 input{
+	width: 95%;
+}
+.go2 input {
+	width: 100%;
+}
+
+.go, .go1, .go2 {
+	padding-bottom: 15px;
+}
+
+.go1 {
+	 width: 35%;
+	 float: left;
+}
+.go2 {
+	width: 65%;
+	float: left;
+}
+
+.widdth {
+	width: 100%;
+}
+
+#left {
+	padding-left: 0px;
+}
+.contact_form input{
+    height: 35px;
+    padding-left: 10px;
+}
+.contact_form input, .contact_form textarea {
+ border:1px solid #aaa;
+ box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+ border-radius:2px;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+ background: #fff;
+ border:1px solid #555;
+ box-shadow: 0 0 3px #aaa;
+}
+.contact_form textarea {
+	padding-left: 10px;
+}
+.blowd {
+	min-height: 75px;
+    border: 3px dotted #e5ebeb;
+    border-radius: 2px;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+.imgg {
+	height: 20px;
+	margin-bottom: -6px;
+}
+.colir {
+	color: aqua;
+}
+.button {
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	background-color: #39b3fb;
+	color: white;
+}
+/*.mazepa {*/
+	/*color: white;*/
+/*}*/
