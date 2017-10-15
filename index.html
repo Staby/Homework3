@@ -48,16 +48,19 @@
 					<ul id="left">
 						<li class="go1">
 							<label for="F-name"></label>
-							 <input  type="text" name="F-name" placeholder="First Name" required />
+							 <input id="text1"  type="name"  name="F-name" placeholder="First Name"
+							 
+							 required />
 						</li>
 						<li class="go2"><label for="L-name"></label>
-							 <input type="text" name="L-name" placeholder="Last Name" required />
+							 <input id="text2" type="text" name="L-name" placeholder="Last Name" 
+							 " required />
 						</li>
 						<li class="go"><label for="email"></label>
-							 <input class="widdth"  type="text" name="email" placeholder="Email Address" required />
+							 <input id="text3" class="widdth"  type="email" name="email" placeholder="Email Address (Jonh@snou.com)"  required />
 						</li>
 						<li class="go"><label for="phone"></label>
-							 <input class="widdth" type="text" name="phone" placeholder="Phone" required />
+							 <input id="text4" class="widdth" type="text" name="phone" placeholder="Phone (+380977001306)"  pattern="^+380\d{3}\d{2}\d{2}\d{2}$" minlength="12" maxlength="13"  required />
 						</li>
 						<li class="go"><label for="message"></label>
 							<textarea class="widdth"  name="message" cols="40" rows="6" placeholder="Type your message here..." ></textarea>
@@ -70,11 +73,11 @@
 					<a class="colir " href="#">browse files</a>
 					
 				</div>
-				<button class="button">Send Inquiry</a></button>
+				<button onclick="cFind()" class="button">Send Inquiry</button>
 				
 			
 
-
+			<script src="script.js"></script>
 
 			</form>
 		</div>

@@ -157,6 +157,22 @@ strong {
 	background-color: #39b3fb;
 	color: white;
 }
-/*.mazepa {*/
-	/*color: white;*/
+
+input:valid {
+	border-color: green;
+	background: #fff url(images/yes.png) no-repeat 98% center;
+}
+input:invalid {
+	border-color: red;
+	background: #fff url(images/no.png) no-repeat 98% center;
+}
+
+/*.contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */*/
+    /*background: #fff url(images/no.png) no-repeat 98% center;*/
 /*}*/
+/*.contact_form input:required:valid, .contact_form textarea:required:valid { /* when a field is considered valid by the browser */*/
+    /*background: #fff url(images/yes.png) no-repeat 98% center;*/
+/*}*/
+
+
+
